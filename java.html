@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Java | Pembelajaran HTML</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="html.html">HTML</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                    <li><a href="java.html">JAVA</a></li>
+                    <li><a href="python.html">PYTHON</a></li>
+                    <li><a href="cpp.html">C++</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main class="content">
+            <section class="java-intro">
+                <h1>Java</h1>
+                <p>
+                    Java adalah bahasa pemrograman yang dikembangkan oleh Sun Microsystems pada tahun 1995. Java dirancang untuk menjadi sederhana, objek-oriented, dan dapat digunakan di berbagai platform. Salah satu fitur utama dari Java adalah "Write Once, Run Anywhere" (WORA), yang memungkinkan program Java dijalankan di berbagai sistem operasi tanpa perlu modifikasi.
+                </p>
+            </section>
+            <section class="java-basics">
+                <h2>Dasar-Dasar Java</h2>
+                <ul>
+                    <li><strong>Variabel:</strong> Tempat untuk menyimpan data.</li>
+                    <li><strong>Tipe Data:</strong> Menentukan jenis data yang dapat disimpan dalam variabel (misalnya, int, double, String).</li>
+                    <li><strong>Fungsi:</strong> Kumpulan perintah yang dapat dipanggil untuk menjalankan tugas tertentu.</li>
+                </ul>
+                <p>Contoh kode Java sederhana:</p>
+                <pre><code>
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+                </code></pre>
+            </section>
+            <section class="java-resources">
+                <h2>Resources untuk Belajar Java</h2>
+                <ul>
+                    <li><a href="https://www.w3schools.com/java/">W3Schools - Java Tutorial</a></li>
+                    <li><a href="https://www.oracle.com/java/technologies/javase/javase-tutorials.html">Oracle - Java Tutorials</a></li>
+                    <li><a href="https://www.codecademy.com/learn/learn-java">Codecademy - Learn Java</a></li>
+                    <li><a href="https://www.freecodecamp.org/learn/java/">FreeCodeCamp - Java</a></li>
+                </ul>
+            </section>
+            <section class="java-examples">
+                <h2>Contoh Penggunaan Java</h2>
+                <p>Berikut adalah beberapa contoh bagaimana Java digunakan dalam pengembangan perangkat lunak:</p>
+                <div class="example-box">
+                    <h3>Contoh 1: Menghitung Luas Lingkaran</h3>
+                    <pre><code>
+import java.util.Scanner;
+
+public class CircleArea {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Masukkan jari-jari lingkaran: ");
+        double radius = scanner.nextDouble();
+        double area = Math.PI * radius * radius;
+        System.out.println("Luas lingkaran adalah: " + area);
+    }
+}
+                    </code></pre>
+                </div>
+                <div class="example-box">
+                    <h3>Contoh 2: Menggunakan Array</h3>
+                    <pre><code>
+public class ArrayExample {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+        System.out.print("Angka dalam array: ");
+        for (int number : numbers) {
+            System.out.print(number + " ");
+        }
+    }
+}
+                    </code></pre>
+                </div>
+            </section>
+            <a href="python.html" class="action-btn">Selanjutnya</a>
+        </main>
+        <div class="footer">
+            <footer>
+                <p>&copy; 2024 Pembelajaran JAVA. All rights reserved.</p>
+                <ul class="footer-links">
+                    
+                </ul>              
